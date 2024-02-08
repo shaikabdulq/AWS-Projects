@@ -1,5 +1,5 @@
 
-# Python S3 CSV Data Analysis Project
+# S3 CSV Data Retriever
 
 ## Overview
 This project involves a Python script that interacts with an AWS S3 bucket to process data from a CSV file. The CSV file is stored in the S3 bucket and the script uses the `boto3` library to query and handle the data.
