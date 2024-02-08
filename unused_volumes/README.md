@@ -1,4 +1,5 @@
-# AWS Volume Usage Notifier
+
+# Unused Volume Notifier
 
 ## Overview
 This Python project is designed to help with monitoring and notifying about unused AWS EC2 volumes. It uses AWS SDK for Python (Boto3) to interact with AWS services.
@@ -16,7 +17,7 @@ This Python project is designed to help with monitoring and notifying about unus
 Run `main.py` to execute the script. It will:
 - Fetch all the volumes from AWS EC2.
 - Determine the unused volumes.
-- Send an email notification with the details of these unused volumes via AWS SNS.
+- Send an email notification with the details of these unused volumes.
 
 ## Note
 - The script contains a hardcoded SNS topic ARN, which should be modified according to your AWS setup.
