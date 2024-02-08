@@ -1,8 +1,8 @@
 
-# Python AWS Lambda Project
+# JSON S3 To DynamoDB Processor
 
 ## Overview
-This project consists of a Python script designed to be deployed as an AWS Lambda function. The function is triggered by an event, processes data from an S3 bucket, and stores it in an AWS DynamoDB table.
+This project consists of a Python script designed to be deployed as an AWS Lambda function. The function is triggered when a JSON document is uploaded to S3 bucket. It processes the data from the bucket, and stores it in an AWS DynamoDB table.
 
 <img src="static/flowchart-fun.png" alt="flowchart" width="475"/>
 
@@ -38,4 +38,4 @@ To deploy this function:
 2. Deploy the `main.py` script as an AWS Lambda function.
 3. Configure the Lambda function to trigger on an S3 event.
 
-Note: Modify the script to suit the specific AWS configuration as necessary.
+> Note: Modify the script to suit the specific AWS configuration as necessary.
