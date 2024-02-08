@@ -20,4 +20,5 @@ Details about setting up EventBridge, Lambda, and SNS should be provided here.
 
 ---
 
-**Note**: This README assumes familiarity with AWS services like EC2, EventBridge, Lambda, and SNS.
+> Note: This README assumes that AWS resources like EC2, EventBridge and SNS are already configured.
+
