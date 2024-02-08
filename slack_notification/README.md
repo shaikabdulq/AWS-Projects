@@ -1,8 +1,8 @@
 
-# Python Project - Slack Alert
+#  Production Instance Slack Alert
 
 ## Overview
-This project contains a Python script designed to send alerts to a Slack channel. 
+This script designed to be deployed to AWS Lambda function that send alerts to a Slack channel through encrypted webhook URL when a production EC2 Instance is stopped.
 
 ## Features
 - Slack integration using a webhook.
@@ -16,7 +16,7 @@ This project contains a Python script designed to send alerts to a Slack channel
 - `base64`: To decode base64 encoded data.
 
 ## Usage
-The script `slack_alert.py` is designed to be deployed as an AWS Lambda function. It sends a predefined message ("EC2 Instance Stopped") to a specified Slack channel when triggered.
+The script `slack_alert.py` is designed to be deployed as an AWS Lambda function. It can be integrated with AWS EventBridge event which gets triggered when a production EC2 instance is stopped. It sends a predefined message ("EC2 Instance Stopped") to a specified Slack channel when triggered.
 
 ### Environment Variables
 - `SLACK_WEBHOOK`: The encrypted Slack webhook URL.
@@ -24,4 +24,6 @@ The script `slack_alert.py` is designed to be deployed as an AWS Lambda function
 
 ## Security
 The Slack webhook URL is encrypted and stored in an environment variable. It is decrypted at runtime using AWS KMS.
+
+> Note: This README assumes that AWS resources like EC2, EventBridge and KMS are already configured.
 
