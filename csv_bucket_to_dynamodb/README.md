@@ -1,8 +1,8 @@
 
-# Python Project: Employee Data Management
+# CSV S3 To DynamoDB Processor
 
 ## Overview
-This Python project is designed to process employee data and store it in a DynamoDB table. The main functionality is implemented in `main.py`. 
+This Python project is designed to process the CSV data uploaded on S3 Bucket and store it in a DynamoDB table. The main functionality is implemented in `main.py`. 
 
 <img src="static/flowchart-fun.png" alt="flowchart" width="475"/>
 
