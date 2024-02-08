@@ -1,5 +1,5 @@
 
-# EC2 AMI Management Tool
+# UNUSED AMI REMOVER
 
 ## Overview
 This Python project is designed to manage Amazon Machine Images (AMIs) on AWS EC2. It automates the process of deregistering unused AMIs in the specified AWS region.
