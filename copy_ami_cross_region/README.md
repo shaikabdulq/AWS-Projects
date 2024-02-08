@@ -1,5 +1,5 @@
 
-# EC2 Instance Image Management
+# CROSS REGION AMI DUPLICATOR
 
 ## Description
 This Python project is designed to manage Amazon EC2 instance images. It automates the process of listing running EC2 instances, creating images (AMIs) from these instances, and then copying these AMIs to a different AWS region.
